@@ -39,12 +39,12 @@ section article {
 
 body {
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  background: grey url('images/NEW137-.JPG') repeat;
+  background: grey url('images/Amsterdam.jfif') ;
 }
 
 header {
   background: url('images/ShrekHTML.png');
-  width: 960px;
+  width: 835px;
   height: 150px;
 }
 
