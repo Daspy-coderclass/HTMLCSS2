@@ -2,6 +2,63 @@ h2 {
   color: purple;
 }
 
+#vblack {
+  background-color: black;
+  height: 500;
+  width: 500;
+  position: absolute;
+  z-index: 1;
+}
+
+#vyellow {
+  background-color: yellow;
+  height: 350;
+  width: 350;
+  position: absolute;
+  z-index: 2;
+}
+
+#vred {
+  background-color: red;
+  height: 300;
+  width: 300;
+  z-index: 3;
+  position: absolute;
+}
+
+#vblue {
+  background-color: blue;
+  height: 300;
+  width: 300;
+  z-index: 4;
+  position: absolute;
+  bottom: -60;
+  left: 350;
+}
+
+#vgreen {
+  background-color: green;
+  height: 200;
+  width: 200;
+  position: absolute;
+  z-index: 5;
+}
+
+.ad {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  border: solid 5px;
+  background: white;
+  font-size: 30;
+}
+
+.article_img {
+  position: relative;
+  left: 1200px;
+  bottom: 100px;
+}
+
 ul {
   background: #080808;
   padding: 10px;
