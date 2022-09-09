@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <meta charset="utf-8">
     <title>Working title</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <h1>Hoi ik ben Daaf</h1>
+      <h1>Davids Portfolio</h1>
     </header>
-    <nav>
-      <ul>
-        <li><a href="Main.html">Over mij</a></li>
-        <li><a href="projects.html">Projecten</a></li>
-        <li><a href="badges.html">Badges</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="wrapper">
+      <div class="nav">
+        <div class="profile">
+          <img src="https://i.ytimg.com/vi/LyEqj8mC7iQ/mqdefault.jpg" alt="profile_picture">
+          <h3>Saul</h3>
+          <p>Programmeur</p>
+        </div>
+        <ul>
+          <li><a href="Main.html"><span class="icon"><i class="fas fa-home"></i></span><span class="item">Home</span></a></li>
+          <li><a href="projects.html"><span class="icon"><i class="fas fa-desktop"></i></span><span class="item">Projecten</span></a></li>
+          <li><a href="badges.html"><span class="icon"><i class="fas fa-database"></i></span><span class="item">Badges</span></a></li>
+          <li><a href="#"><span class="icon"><i class="fas fa-user-friends"></i></span><span class="item">Contact</span></a></li>
+        </ul>
+      </div>
+    </div>
     <section>
+      <div class="section">
+        <div class="top_navbar">
+            <div class="hamburger">
+              <a href="#">
+                <i class="fas fa-bars"></i>
+              </a>
+            </div>
+          </div>
+        </div>
       <h2>Over mij</h2>
-        <p>Ik ben David en zit in 2v op het Metis Montesorri lyceum. Deze website heb ik gemaakt voor de Module HTML-CSS 2. Op deze website doe ik verslag van wat projecten die ik heb gemaakt voor Coderclass.</p>
+        <p>Ik ben David en zit in 3v op het Metis Montesorri lyceum. Deze website heb ik gemaakt voor de Module HTML-CSS 2. Op deze website doe ik verslag van wat projecten die ik heb gemaakt voor de Coderclass.</p>
       <h2>Uitgelicht project</h2>
         <p id="hier_project"></p>
     <script src="index.js"></script>
     </section>
     <footer>
+      <p>footer</p>
     </footer>
   </body>
 </html>
