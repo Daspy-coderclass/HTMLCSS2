@@ -15,9 +15,12 @@ header {
   left: 0;
   top: 0;
   background-color: #5EB1BF;
+  z-index: 1;
+}
+
+.header {
   text-align: center;
   color: White;
-  z-index: 1;
 }
 
 ul {
@@ -35,6 +38,12 @@ body {
 section {
   margin-left: 15%;
   transition: all 0.5s ease;
+}
+
+.cover_text {
+  text-align: center;
+  font-size: 400%;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .wrapper .nav{
@@ -144,8 +153,12 @@ body.active .wrapper .section{
     transition: all 0.5s ease;
 }
 
-body.active section {
+body.active section{
   margin-left: 0%;
   width: 100%;
   transition: all 0.5s ease;
+}
+
+.top_navbar {
+  position: 
 }
