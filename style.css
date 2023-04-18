@@ -63,7 +63,26 @@ body {
 }
 
 section {
+}
+
+article {
+  padding: 5px;
+  border-style: solid;
+  border-color: #782008;
+  border-width: 2px;
+  background-color: #E1CBB6;
+  border-radius: 20px;
   margin-left: 15%;
+  margin-right: 20%;
+  margin-top: 2%;
+}
+
+article h2 {
+  color: #782008;
+}
+
+article p {
+  color: #782008;
 }
 
 .wrapper .nav{
