@@ -52,7 +52,6 @@ h1.header {
 
 ul {
     list-style: none;
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -60,6 +59,12 @@ ul {
 body {
   margin-top: 5.4%;
   overflow-x: hidden;
+}
+
+.project {
+  position: absolute;
+  left: 1000px;
+  width: 200px;
 }
 
 section {
@@ -73,7 +78,7 @@ article {
   background-color: #E1CBB6;
   border-radius: 20px;
   margin-left: 15%;
-  margin-right: 20%;
+  margin-right: 28%;
   margin-top: 2%;
 }
 
@@ -93,84 +98,46 @@ article p {
     width: 225px;
     height: 100%;
     padding: 20px 0;
-    border-right-style: solid;
-    border-right-color: Black;
-    border-right-width: 1px;
+    border-right: solid Black 1px;
     z-index: 2;
 
 }
 
 .wrapper .nav ul li a{
+    top: 100px;
+    margin-top: 25px;
     display: block;
     padding: 13px 30px;
-    border-bottom: 1px solid #10558d;
     color: White;
-    font-size: 16px;
+    font-size: 20px;
     position: relative;
     text-decoration: none;
     list-style: none;
 }
+.icon i {
+  font-size: 38px;
+}
+
+.item {
+  margin-left: 30px;
+}
 
 .wrapper .nav ul li a .icon{
-    color: #dee4ec;
-    width: 30px;
     display: inline-block;
 }
 
 .wrapper .nav ul li a:hover,
 .wrapper .nav ul li a.active{
-    color: #0c7db1;
-    background:white;
-    border-right: 2px solid rgb(5, 68, 104);
+    color: #D55816;
+    background: white;
 }
 
 .wrapper .nav ul li a:hover .icon,
 .wrapper .nav ul li a.active .icon{
-    color: #0c7db1;
+    color: #D55816;
 }
 
 .wrapper .nav ul li a:hover:before,
 .wrapper .nav ul li a.active:before{
     display: block;
-}
-
-.wrapper section{
-    width: calc(100% - 230px);
-    margin-left: 230px;
-    transition: all 0.5s ease;
-}
-
-.wrapper .section .top_navbar{
-    background: rgb(7, 105, 185);
-    height: 50px;
-    display: flex;
-    align-items: center;
-    padding: 0 30px;
-
-}
-
-.wrapper .section .top_navbar .hamburger a{
-    font-size: 28px;
-    color: #f4fbff;
-}
-
-.wrapper .section .top_navbar .hamburger a:hover{
-    color: #a2ecff;
-}
-
-
-body.active .wrapper .nav{
-    left: -230px;
-    margin-left: 0;
-}
-
-body.active .wrapper .section{
-    width: 100%;
-    transition: all 0.5s ease;
-}
-
-body.active section{
-  margin-left: 0%;
-  width: 100%;
-  transition: all 0.5s ease;
 }
