@@ -33,6 +33,24 @@ footer{
   left: -0.75%;
 }
 
+.contactpagina {
+  display: flex;
+  margin: auto;
+}
+.contactpagina article {
+  display: flex;
+  margin-right: 0;
+  text-align: center;
+  align-items: center;
+  border: none;
+  background: none;
+}
+
+.contactpagina a {
+  margin-left: 75px;
+  font-size: 150%;
+}
+
 header {
   position: absolute;
   width: 100%;
