@@ -3,20 +3,15 @@
   <head>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <meta charset="utf-8">
-    <title>Working title</title>
+    <title>Daafs portfolio</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <h1>Davids Portfolio</h1>
+      <h1 class="header">Portfolio David Spits – HTML-CSS 2</h1>
     </header>
     <div class="wrapper">
       <div class="nav">
-        <div class="profile">
-          <img src="https://i.ytimg.com/vi/LyEqj8mC7iQ/mqdefault.jpg" alt="profile_picture">
-          <h3>Saul</h3>
-          <p>Programmeur</p>
-        </div>
         <ul>
           <li><a href="index.html"><span class="icon"><i class="fas fa-home"></i></span><span class="item">Home</span></a></li>
           <li><a href="projects.html"><span class="icon"><i class="fas fa-desktop"></i></span><span class="item">Projecten</span></a></li>
@@ -25,28 +20,33 @@
         </ul>
       </div>
     </div>
-    <section>
-      <div class="section">
-        <div class="top_navbar">
-            <div class="hamburger">
-              <a href="#">
-                <i class="fas fa-bars"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      <h2 class="cover_text">Projecten</h2>
-        <p>Ik heb een paar projecten gedaan, op deze pagina licht ik ze toe.</p>
-      <h2>Cure Inc.</h2>
-        <p></p>
-      <h2>Multiversum</h2>
-        <p></p>
-      <h2>First lego league</h2>
-        <p></p>
-    <script src="index.js"></script>
-    </section>
+    <div class="container">
+      <img src="Images\Banner.png" id="banner_img"></img>
+      <h2 class="cover_text">Daafs portfolio - Projecten</h2>
+    </div>
+    <article class="project">
+      <h2 class="project">Cure inc. TIC-80 serious game</h2>
+      <section class="project">
+        <a href="https://github.com/Daspy-coderclass/Cure.inc-tic-80-public">Hier te downloaden</a>
+      </section>
+      <img class="project" src="Images/cureinc.png">
+    </article>
+    <article class="project">
+      <h2 class="project">Multiversum, Metis Gamejam 2022</h2>
+      <section class="project">
+        <a href="">Hier te downloaden</a>
+      </section>
+      <img class="project" src="Images/multi_logo.png">
+    </article>
+    <article class="project">
+      <h2 class="project">The Brightbox, Studioproject</h2>
+      <section class="project">
+        <a href="https://brightboxwebsite.kaikougemerden.repl.co/">Website</a>
+      </section>
+      <img class="project" src="I">
+    </article>
     <footer>
-      <p>footer</p>
+      <p>2023 – David Spits</p>
     </footer>
   </body>
 </html>
